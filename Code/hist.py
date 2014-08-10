@@ -26,7 +26,7 @@ for x,y in itertools.combinations(AA_percents.values(), 2):
 numBins = 125
 plt.hist(Distances, numBins,color='green')
 plt.title("Amino Acid Comparison")
-plt.xlabel("Amino Acid Sequences")
+plt.xlabel("Distances between AA_seqs")
 plt.ylabel("Frequencey ")
 plt.savefig('Amino Acid Comparison')
 
